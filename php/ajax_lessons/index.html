@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+
+  <title>JQueryの練習</title>
+
+  <style>
+  .myStyle{
+    border: 5px solid green;
+    font-size: 48px;
+  }
+  </style>
+</head>
+<body>
+  <p>JQueryの練習</p>
+<p>
+  <input type="text" name="name" id="name">
+  <input type="button" id="greet" value="Greet!">
+</p>
+  <div id="result"></div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script>
+ //   $(document).ready(function(){
+  $(function(){
+
+
+    $('#greet').click(function(){
+      $.get('greet.php',{
+        name:$('#name').val()
+      },function(data){
+        $('#result').html(data.message + '(' + data.length + ')');
+      });
+
+    });
+  });
+
+  </script>
+</body>
+</html>

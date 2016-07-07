@@ -1,0 +1,1 @@
+<p><small>2016 © paramoe All rights reserved</small></p>

@@ -1,0 +1,196 @@
+@charset="UTF-8";
+
+*{margin: 0; padding: 0; text-decoration: none;}
+
+
+header{
+  background-color: black;
+  color:white;
+}
+
+h1{
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+}
+
+
+
+.header{
+  color: lightgray;
+}
+
+#main{
+  margin:20px;
+  text-align: center;
+}
+
+  #contents{
+    margin: 50px;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .pager{
+    color: gray;
+  }
+
+  .prev, .next{
+    margin-left: 50px;
+    color: white;
+    background-color: pink;
+    padding: 5px;
+  }
+
+  .prev:hover, .next:hover{
+    opacity: 0.5;
+  }
+
+.create{
+  color: white;
+  background-color: pink;
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.create:hover{
+  opacity: 0.5;
+}
+
+  h2{
+  color: #02a3fc;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 50px;
+  border-bottom: 1px solid #02a3fc;
+  }
+
+  h2 span{
+    color: gray;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+article{
+  color: gray;
+  font-size: 15px;
+}
+
+.title{
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+  padding-left: 50px;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.title:hover{
+    color: pink;
+  background: url(./images/this!.png) no-repeat;
+}
+
+.edit, .delete{
+  background-color: pink;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.edit:hover, .delete:hover{
+  opacity: 0.5;
+}
+
+footer{
+  text-align: center;
+  color: gray;
+}
+
+.img-article{
+  max-height: 300px;
+  width: auto;
+}
+
+/*new.php*/
+.img-pink{
+  position: absolute;
+  left: 10px;
+}
+
+
+
+.newTitle{
+  border: 3px solid black;
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+}
+
+textarea{
+  width: 300px;
+  border: 3px solid black;
+}
+
+input:focus{
+  border: none;
+  outline: pink;
+  border: 3px solid #b9c5e5;
+}
+
+textarea:focus{
+  border: none;
+  outline: pink;
+  border: 3px solid #b9c5e5;
+}
+
+label{
+  font-weight: bold;
+}
+
+.btn{
+  clear: both;
+  text-align: center;
+  margin: 50px;
+  border:3px solid #b9c5e5;
+  background-color: #b9c5e5;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.edit-img{
+    position: absolute;
+   left: 10px;
+}
+
+/*post.php*/
+.img-top{
+  height: 30px;
+  width: auto;
+  float: right;
+}
+
+
+/*show.php*/
+.image-show{
+  width: 200px;
+  height: auto;
+  margin-left: 500px;
+  margin-top: -100px;
+}
+/*
+.box{
+  background-color: pink;
+  width: 200px;
+  height: 100px;
+}*/
